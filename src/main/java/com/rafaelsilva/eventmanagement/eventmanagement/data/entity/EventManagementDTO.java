@@ -1,4 +1,4 @@
-package com.rafaelsilva.eventmanagement.eventmanagement.DTO;
+package com.rafaelsilva.eventmanagement.eventmanagement.data.entity;
 
 public class EventManagementDTO {
 
@@ -22,11 +22,11 @@ public class EventManagementDTO {
 	}
 	
 	public String getConditionDescription() {
-		return ConditionDescription;
+		return ConditionDescription.trim();
 	}
 
 	public void setConditionDescription(String conditionDescription) {
-		ConditionDescription = conditionDescription.trim();
+		ConditionDescription = conditionDescription;
 	}
 
 	public boolean isEnableAutoIncident() {
@@ -78,7 +78,7 @@ public class EventManagementDTO {
 	}
 
 	public String getFilterStat() {
-		return FilterStat;
+		return FilterStat.trim();
 	}
 
 	public void setFilterStat(String filterStat) {
@@ -102,7 +102,7 @@ public class EventManagementDTO {
 	}
 
 	public String getConditionName() {
-		return ConditionName;
+		return ConditionName.trim();
 	}
 
 	public void setConditionName(String conditionName) {

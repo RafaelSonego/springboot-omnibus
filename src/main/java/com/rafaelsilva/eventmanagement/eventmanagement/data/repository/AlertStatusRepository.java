@@ -1,4 +1,4 @@
-package com.rafaelsilva.eventmanagement.eventmanagement.repository;
+package com.rafaelsilva.eventmanagement.eventmanagement.data.repository;
 
 import java.util.ArrayList;
 import java.util.List;

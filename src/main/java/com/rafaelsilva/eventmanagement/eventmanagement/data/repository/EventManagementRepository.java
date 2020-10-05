@@ -1,4 +1,4 @@
-package com.rafaelsilva.eventmanagement.eventmanagement.repository;
+package com.rafaelsilva.eventmanagement.eventmanagement.data.repository;
 
 import java.util.List;
 
@@ -7,7 +7,7 @@ import org.springframework.jdbc.core.BeanPropertyRowMapper;
 import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.stereotype.Repository;
 
-import com.rafaelsilva.eventmanagement.eventmanagement.DTO.EventManagementDTO;
+import com.rafaelsilva.eventmanagement.eventmanagement.data.entity.EventManagementDTO;
 
 @Repository
 public class EventManagementRepository {
