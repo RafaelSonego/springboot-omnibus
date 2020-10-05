@@ -8,8 +8,8 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.rafaelsilva.eventmanagement.eventmanagement.DTO.EventManagementDTO;
-import com.rafaelsilva.eventmanagement.eventmanagement.repository.EventManagementRepository;
+import com.rafaelsilva.eventmanagement.eventmanagement.data.entity.EventManagementDTO;
+import com.rafaelsilva.eventmanagement.eventmanagement.data.repository.EventManagementRepository;
 
 @RestController
 @RequestMapping(path = "eventManagement")

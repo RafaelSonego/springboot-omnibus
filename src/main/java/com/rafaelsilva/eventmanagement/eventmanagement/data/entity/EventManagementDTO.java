@@ -1,4 +1,4 @@
-package com.rafaelsilva.eventmanagement.eventmanagement.DTO;
+package com.rafaelsilva.eventmanagement.eventmanagement.data.entity;
 
 public class EventManagementDTO {
 
